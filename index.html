@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <!-- Quinto ejemplo -->
+        <h2>Formulario</h2>
+
+        <form action="">
+            <fieldset>
+                <legend>Datos Generales</legend>
+
+                <div>
+                    <label for="">Nombre</label>
+                    <input type="text" name="Nombre" id="Nombre">
+                </div>
+
+                </div>  
+                    <label for="edad">Edad</label>
+                    <input type="number" name="edad" id="edad">
+                </div>
+
+                <div>
+                    <label for="cf">Color de fondo</label>
+                    <input type="color" name="cf" id="cf">
+                </div>
+
+                <div>
+                    <label for="Clave">Password</label>
+                    <input type="password" name="Clave" id="Clave">
+                </div>
+
+                <div>
+                    <label for="info">Comentarios:</label>
+                    <textarea name="info" id="info" cols="30" rows="10"></textarea>
+                </div>
+
+                <div>
+                    <label for="metodo_pago">Metodo de pago: </label>
+                    <select name="metodo_pago" id="metodo_pago">
+                        <option value="12">Efectivo</option>
+                        <option value="5">Debito</option>
+                        <option value="4">Credito</option>
+                        <option value="1">Bitcoin</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="metodo_pago_favorito">Metodo de pago favorito: </label>
+                    <select name="metodo_pago_favorito" id="metodo_pago_favorito" multiple>
+                        <option value="12">Efectivo</option>
+                        <option value="5">Debito</option>
+                        <option value="4">Credito</option>
+                        <option value="1">Bitcoin</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="vehiculo">Vehiculo</label>
+                    <select name="vehiculo" id="vehiculo">
+                        <optgroup label="Camionetas">
+                        <option value="3">Toyota</option>
+                        <option value="43">Silveradp</option>
+                        </optgroup>
+
+                        <optgroup label="Autos compactos">
+                        <option value="3">Versa</option>
+                        <option value="2">Sentra</option>
+                        </optgroup>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="edo_civil">¿Casado?</label>
+                    <input type="checkbox" name="edo_civil" id="edo_civil">
+
+                </div>
+
+                <div>
+                    <label for="foto">Archivo en foto</label>
+                    <input type="file" name="foto" id="foto">
+                </div>
+                <input type="submit" value="Enviar">
+            
+            </fieldset>
+        </form>
+
+        <!-- Primer ejemplo -->
+        <H1>Tablas Html</H1>
+        <table border="1px">
+            <tr>
+                <td>Actividad</td>
+                <td>Lunes</td>
+                <td>Martes</td>
+                <td>Miercoles</td>
+                <td>Jueves</td>
+                <td>Viernes</td>
+                <td>Sabado</td>
+                <td>Domingo</td>
+            </tr>
+            <tr>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+            </tr>
+        </table>
+        <!-- Segundo ejemplo -->
+<br>
+        <table border="1px">
+            <tr>
+                <th>Actividad</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+                <th>Sabado</th>
+                <th>Domingo</th>
+            </tr>
+            <tr>
+                <th>X</th>
+                <th>X</th>
+                <th>X</th>
+                <th>X</th>
+                <th>X</th>
+                <th>X</th>
+                <th>X</th>
+                <th>X</th>
+            </tr>
+        </table>
+        </table>
+        <!-- Tercer ejemplo -->
+<br>
+        <table border="1px">
+            <tr>
+                <th>Actividad</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+                <th>Sabado</th>
+                <th>Domingo</th>
+            </tr>
+            <tr>
+               <td>Ir al gimansio</td>
+               <td colspan="5">X</td>
+               <td>-</td>
+               <td>-</td>
+            </tr>
+            <tr>
+                <td>Salir con mi novia</td>
+                <td colspan="5">-</td>
+                <td colspan="2">X</td>
+            </tr>
+            <tr>
+                <td>Practica Futbol</td>
+                <td rowspan="2">X</td>
+                <td colspan="6">-</td>
+            </tr>
+
+            <tr>
+                <td>Practica basquet</td>
+                <td colspan="7">-</td>
+            </tr>
+        </table>
+        <!-- Cuarto ejemplo -->
+<br>
+        <table border="1px">
+            <thead>
+                <tr>
+                    <th colspan="8">Mi itinerario</th>
+                </tr>
+                <tr>
+                    <th>Actividad</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miercoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                    <th>Sabado</th>
+                    <th>Domingo</th>
+                </tr>
+            </thead>
+            </tbody>
+            <tr>
+               <td>Ir al gimansio</td>
+               <td colspan="5">X</td>
+               <td>-</td>
+               <td>-</td>
+            </tr>
+            <tr>
+                <td>Salir con mi novia</td>
+                <td colspan="5">-</td>
+                <td colspan="2">X</td>
+            </tr>
+            <tr>
+                <td>Practica Futbol</td>
+                <td rowspan="2">X</td>
+                <td colspan="6">-</td>
+            </tr>
+                <tr>
+                    <td>Practica basquet</td>
+                    <td colspan="7">-</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="8">Elaborado por: abc</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    <aside></aside>
+    <footer></footer>
+</body>
+</html>
